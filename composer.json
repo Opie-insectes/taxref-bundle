@@ -1,0 +1,20 @@
+{
+    "name": "opie/taxref-bundle",
+    "version": "0.0.5",
+    "description": "Bundle to implement Taxref Api with PHP",
+    "require": {
+        "symfony/http-client": "^5.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Taxref\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "François VAILLANT",
+            "email": "frvaillant@gmail.com"
+        }
+    ]
+}
